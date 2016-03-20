@@ -2,4 +2,4 @@
 
 项目入口地址：
 
-http://127.0.0.1:8080/struts2/servletimpl/helloWordAction.action
+http://127.0.0.1:8080/struts2/servletimpl/login.jsp
