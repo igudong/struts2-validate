@@ -1,0 +1,18 @@
+<!DOCTYPE struts PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+          "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<constant name="struts.devMode" value="true"></constant>
+	<constant name="struts.i18n.encoding" value="gb2312"></constant>
+	<constant name="struts.locale" value="zh_CN"></constant>
+
+	<package name="helloWord" extends="struts-default">
+		<action name="helloWordAction"
+			class="cn.javass.hello.struts2impl.action.HelloWordAction">
+			<result name="toWelcome">/servletimpl/welcome.jsp</result>
+			<result name="input">/servletimpl/login.jsp</result>
+		</action>
+	</package>
+
+</struts> 

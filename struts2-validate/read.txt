@@ -1,0 +1,5 @@
+该项目主要用来展示struts2的基本搭建，以及他的jar包
+
+项目入口地址：
+
+http://127.0.0.1:8080/struts2/servletimpl/helloWordAction.action
